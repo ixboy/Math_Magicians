@@ -33,7 +33,7 @@
 
 .display * {
   padding-right: 0.8rem;
-  color: var(--light)
+  color: var(--light);
 }
 
 .buttons {

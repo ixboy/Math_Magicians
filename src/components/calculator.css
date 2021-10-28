@@ -28,12 +28,12 @@
   height: 70px;
   border: none;
   background-color: var(--primary);
-  color: #fff;
   text-align: end;
 }
 
 .display * {
   padding-right: 0.8rem;
+  color: var(--light)
 }
 
 .buttons {

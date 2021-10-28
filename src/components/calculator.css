@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100;400;700&display=swap');
+:root {
+  --primary: #858693;
+  --secondary: #f5913e;
+  --light: #e0e0e0;
+  --dark: #0a0808;
+};
+
+*{
+  font-family: Roboto, sans-serif;
+  color: var(--dark);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 400px;
+  background-color: var(--light);
+}
+
+.display {
+  width: 100%;
+  font-size: 4rem;
+  height: 70px;
+  border: none;
+  background-color: var(--primary);
+  color: #fff;
+  text-align:end;
+}
+
+.display * {
+  padding-right: .8rem;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "top top top side"
+    "main main main side"
+    "bottom bottom bottom side";
+} 
+
+button {
+  height: 60px;
+  border-radius: 3px;
+  border: 1px solid #c4c4c4;
+  background-color: transparent;
+  font-size: 3rem;
+  background-image: linear-gradient(to bottom,transparent,transparent 50%,rgba(0,0,0,.04));
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+  text-shadow: 0 1px rgba(255,255,255,.4);
+  cursor: pointer;
+  transition: 0.4s;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+.extra {
+  grid-area: top;
+  display: flex;
+  align-self: stretch;
+}
+
+.extra button{
+  flex: 1;
+}
+
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.digits button{
+  flex: 1 1 33.333%;
+  max-width: 33.333%;
+}
+
+.operators{
+  background-color: var(--secondary);
+  grid-area: side;
+  display: flex;
+  flex-direction:column;
+}
+
+.dif {
+  grid-area: bottom;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: flex;
+}
+
+.dif .btn{
+  flex: 2;
+}
+
+.dif button{
+  flex: 1;
+}

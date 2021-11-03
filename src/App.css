@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100;400;700&display=swap');
+
 :root {
   --primary: #858693;
   --secondary: #f5913e;
@@ -6,7 +7,7 @@
   --dark: #0a0808;
 }
 
-*{
+* {
   font-family: Roboto, sans-serif;
   color: var(--light);
   margin: 0;
@@ -16,7 +17,7 @@
   text-decoration: none;
 }
 
-body{
+body {
   background-color: #373d3d;
   overflow: hidden;
   min-height: 100vh;
@@ -28,6 +29,7 @@ body{
   margin: 1rem 2rem;
   font-size: 2rem;
 }
+
 .headerC ul {
   display: flex;
   justify-content: space-between;
@@ -38,7 +40,7 @@ body{
   cursor: pointer;
 }
 
-.headerC *{
+.headerC * {
   color: var(--primary);
 }
 
@@ -47,18 +49,18 @@ body{
   text-decoration: underline;
 }
 
-.homeDiv{
+.homeDiv {
   width: 60vw;
   margin: 2rem 2rem;
   font-size: 1.1rem;
   line-height: 150%;
 }
 
-.homeDiv h1{
+.homeDiv h1 {
   margin: 2rem 0;
 }
 
-.quotesDiv{
+.quotesDiv {
   font-size: 1.1rem;
   display: flex;
   min-height: 100vh;
@@ -66,6 +68,6 @@ body{
   align-items: center;
 }
 
-.quotesDiv div{
+.quotesDiv div {
   width: 70vw;
 }

@@ -8,7 +8,7 @@
   margin: 3rem;
 }
 
-.container *{
+.container * {
   color: var(--dark);
 }
 

@@ -34,10 +34,6 @@ To get this project up and running, follow these simple steps:
 - Any source-code editor (VSCode recommended).
 - npm and yarn installed
 
-### Setup
-
-- Follow the steps described before.
-
 
 ## Authors
 

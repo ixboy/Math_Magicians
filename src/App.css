@@ -1,8 +1,71 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100;400;700&display=swap');
+:root {
+  --primary: #858693;
+  --secondary: #f5913e;
+  --light: #e0e0e0;
+  --dark: #0a0808;
+}
+
+*{
+  font-family: Roboto, sans-serif;
+  color: var(--light);
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  background-color: #373d3d;
+  overflow: hidden;
   min-height: 100vh;
+}
+
+.headerC {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+  font-size: 2rem;
+}
+.headerC ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerC ul li {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.headerC *{
+  color: var(--primary);
+}
+
+.headerC a:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+.homeDiv{
+  width: 60vw;
+  margin: 2rem 2rem;
+  font-size: 1.1rem;
+  line-height: 150%;
+}
+
+.homeDiv h1{
+  margin: 2rem 0;
+}
+
+.quotesDiv{
+  font-size: 1.1rem;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotesDiv div{
+  width: 70vw;
 }

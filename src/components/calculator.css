@@ -1,25 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100;400;700&display=swap');
-
-:root {
-  --primary: #858693;
-  --secondary: #f5913e;
-  --light: #e0e0e0;
-  --dark: #0a0808;
-}
-
-* {
-  font-family: Roboto, sans-serif;
-  color: var(--dark);
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .container {
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 400px;
   background-color: var(--light);
+  float: inline-end;
+  margin: 3rem;
+}
+
+.container *{
+  color: var(--dark);
 }
 
 .display {

@@ -17,7 +17,7 @@ const Calculator = () => {
     const digits = [];
     for (let i = 9; i > 0; i -= 1) {
       digits.push(
-        <button type="button" onClick={handleNumber}>{i}</button>,
+        <button type="button" key={i} onClick={handleNumber}>{i}</button>,
       );
     }
     return digits;

@@ -74,12 +74,3 @@ body {
 .quotesDiv div {
   width: 70vw;
 }
-
-.randomDiv{
-  margin: 0 auto;
-  width: 30vw;
-}
-.randomDiv h3{
-  width: 80%;
-  font-size: 1.3rem;
-}

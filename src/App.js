@@ -21,9 +21,6 @@ const App = () => (
           <Home />
         </Route>
         <Route path="/calculator" component={Calculator}>
-          <div className="randomDiv">
-            <h3> Mathematics is a hard thing to love, let&apos;s do some Maths.</h3>
-          </div>
           <Calculator />
         </Route>
         <Route path="/quote" component={Quote}>

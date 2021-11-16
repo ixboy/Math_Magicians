@@ -18,9 +18,9 @@
 }
 
 body {
-  background-image:url('./background.png');
+  background-image: url('./background.png');
   background-color: #141616;
-  background-repeat:repeat;
+  background-repeat: repeat;
   overflow: hidden;
   min-height: 100vh;
 }

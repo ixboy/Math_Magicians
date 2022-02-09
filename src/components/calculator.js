@@ -43,9 +43,9 @@ export default class Calculator extends React.Component {
           </div>
           <div className="operators">
             <button type="button" onClick={this.handleNumber}>+</button>
-            <button type="button" onClick={this.handleNumber}>*</button>
+            <button type="button" onClick={this.handleNumber}>x</button>
             <button type="button" onClick={this.handleNumber}>-</button>
-            <button type="button" onClick={this.handleNumber}>+</button>
+            <button type="button" onClick={this.handleNumber}>÷</button>
             <button type="button" onClick={this.handleNumber}>=</button>
           </div>
           <div className="digits">

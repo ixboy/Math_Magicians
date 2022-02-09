@@ -18,7 +18,9 @@
 }
 
 body {
-  background-color: #373d3d;
+  background-image: url('./background.png');
+  background-color: #141616;
+  background-repeat: repeat;
   overflow: hidden;
   min-height: 100vh;
 }
@@ -26,6 +28,7 @@ body {
 .headerC {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   margin: 1rem 2rem;
   font-size: 2rem;
 }
@@ -41,11 +44,11 @@ body {
 }
 
 .headerC * {
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .headerC a:hover {
-  color: var(--secondary);
+  color: var(--primary);
   text-decoration: underline;
 }
 

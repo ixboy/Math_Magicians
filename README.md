@@ -19,6 +19,12 @@ This application is built using React and Bootstrap.
 - JSX
 - CSS
 
+## Live Demo
+
+Check the [Live Version](https://math-magicians-2.herokuapp.com/) of the website
+
+
+
 ## Getting Started
 
 To get this project up and running, follow these simple steps:

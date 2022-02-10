@@ -1,4 +1,3 @@
-/* eslint-disable react/destructuring-assignment */
 import './calculator.css';
 
 import React, { useState } from 'react';
